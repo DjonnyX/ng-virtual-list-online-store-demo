@@ -148,7 +148,7 @@ const manifest: ITheme = {
                             background: 'rgba(255, 255, 255, 0.15)'
                         },
                     },
-                    background: ["rgb(166, 67, 255)", "#4f1783"],
+                    background: ["#8d53c59e", "#6f3aa39e"],
                     rippleColor: "rgba(255, 255, 255, 0.15)",
                     searchSubstringColor: "rgba(139, 0, 86, 0.84)",
                     editingTextBackground: "rgba(0, 0, 0, 0.1)",

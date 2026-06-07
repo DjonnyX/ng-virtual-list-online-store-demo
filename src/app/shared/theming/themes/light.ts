@@ -96,8 +96,8 @@ const manifest: ITheme = {
             banner: {
                 rippleColor: "rgba(255, 255, 255, 0.2)",
                 fill: 'rgba(84, 33, 126, 0.5)',
-                background: ["#c38ef5", "#b476ef"],
-                color: "#f2e4ff",
+                background: ["#6b64c7", "#6b64c7"],
+                color: "#d8d5ff",
                 borderColor: 'transparent',
             },
             group: {
@@ -148,7 +148,7 @@ const manifest: ITheme = {
                             background: 'rgba(33, 82, 122, 0.1)'
                         },
                     },
-                    background: ["#d6f0fb", "#dad6fc"],
+                    background: ["#d6f0fba3", "#dad6fca3"],
                     rippleColor: "rgba(28, 133, 165, 0.15)",
                     searchSubstringColor: "rgba(255, 0, 191, 0.23)",
                     editingTextBackground: "rgba(255, 240, 185, 0.151)",
