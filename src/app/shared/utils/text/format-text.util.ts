@@ -152,7 +152,7 @@ const format = (src: string, loading: boolean) => {
             if (image) {
                 const index = withoutWhiteSpaceAndLineBreak.indexOf(url);
                 result = result.replace(url, `${SERVICE_COMPILED_URL}${i}`);
-                compiledURLs.push([i, (`<span><img${SERVICE_WHITESPACE}src="${image}"${SERVICE_WHITESPACE}class="message-editor-image"${SERVICE_WHITESPACE}draggable="false"${SERVICE_WHITESPACE}width="100%"${SERVICE_WHITESPACE}style="display:block;width:100%;max-height:128px;object-fit:contain;-moz-user-drag:none;-webkit-user-drag:user-select:none;none;margin:2px${SERVICE_WHITESPACE}auto;border-radius:6px;"/></span>`), true, index, url.length]);
+                compiledURLs.push([i, (`<span><img${SERVICE_WHITESPACE}src="${image}"${SERVICE_WHITESPACE}class="message-editor-image"${SERVICE_WHITESPACE}draggable="false"${SERVICE_WHITESPACE}width="100%"${SERVICE_WHITESPACE}style="display:block;width:100%;max-height:128px;min-height:128px;object-fit:contain;-moz-user-drag:none;-webkit-user-drag:user-select:none;none;margin:2px${SERVICE_WHITESPACE}auto;border-radius:6px;"/></span>`), true, index, url.length]);
             }
         }
         if (compiledURLs) {

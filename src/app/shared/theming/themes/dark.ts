@@ -96,8 +96,8 @@ const manifest: ITheme = {
             banner: {
                 rippleColor: "rgba(255, 255, 255, 0.2)",
                 fill: 'rgba(84, 33, 126, 0.5)',
-                background: ["rgb(112,36,183)", "rgb(89,23,151)"],
-                color: "#b476ef",
+                background: ["rgba(45, 42, 77, 1)", "rgba(63, 45, 75, 1)"],
+                color: "rgb(245, 234, 255)",
                 borderColor: 'transparent',
             },
             group: {

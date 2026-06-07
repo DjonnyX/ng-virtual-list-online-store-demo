@@ -16,7 +16,9 @@
             mode="rounded-rectangle" type="none" />
         <x-text class="text" [text]="d.data.text" [searchPattern]="searchedWords" [classes]="class"
             substringClass="search-substring" presetName="store-item" />
-        <div class="store-item-footer" [ngClass]="class" [style.--fill-color]="iconsColor()"></div>
+        <div class="store-item-footer" [ngClass]="class" [style.--fill-color]="iconsColor()">
+            <div class="price">{{d.data.price}}$</div>
+        </div>
     </div>
 </div>
 }

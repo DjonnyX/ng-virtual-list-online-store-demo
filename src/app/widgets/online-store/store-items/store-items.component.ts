@@ -93,6 +93,7 @@ export class StoreItemsComponent implements OnDestroy {
   defaultItemValue = signal<IVirtualListItem<IStoreItemData>>({
     dateTime: 0,
     mailed: false,
+    price: Math.round(Math.random() * 10),
     text: '',
     edited: false,
     incomType: 'in',

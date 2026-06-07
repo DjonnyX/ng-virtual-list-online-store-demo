@@ -94,10 +94,10 @@ const manifest: ITheme = {
             background: "linear-gradient(180deg, rgb(80, 42, 155) 0%, rgb(53, 147, 184) 100%)",
             backgroundImage: "url(background_infinity.png)",
             banner: {
-                rippleColor: "rgba(255, 255, 255, 0.2)",
+                rippleColor: "rgba(28, 133, 165, 0.25)",
                 fill: 'rgba(84, 33, 126, 0.5)',
-                background: ["#6b64c7", "#6b64c7"],
-                color: "#d8d5ff",
+                background: ["rgb(255, 255, 255)", "rgba(233, 245, 255, 1)"],
+                color: 'rgba(33, 64, 80, 1)',
                 borderColor: 'transparent',
             },
             group: {
@@ -149,7 +149,7 @@ const manifest: ITheme = {
                         },
                     },
                     background: ["rgb(255, 255, 255)", "rgba(233, 245, 255, 1)"],
-                    rippleColor: "rgba(28, 133, 165, 0.15)",
+                    rippleColor: "rgba(28, 133, 165, 0.25)",
                     searchSubstringColor: "rgba(255, 0, 191, 0.23)",
                     editingTextBackground: "rgba(255, 240, 185, 0.151)",
                     editingTextFocusedOutline: "1px solid rgb(24, 90, 151, 0.15)",

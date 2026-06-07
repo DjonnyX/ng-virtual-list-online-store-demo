@@ -8,6 +8,7 @@ import { MessageTypes } from "@shared/enums";
 export interface IStoreItemData {
   id: Id;
   dateTime: number;
+  price: number;
   isBanner?: boolean;
   text: string;
   type?: MessageTypes,

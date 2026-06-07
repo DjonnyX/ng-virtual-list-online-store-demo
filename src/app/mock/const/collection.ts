@@ -34,10 +34,10 @@ export const COLLECTION_PARAMS = {
  * @email djonnyx@gmail.com
  * @license Copyright (c) 2026 Evgenii Alexandrovich Grebennikov (djonnyx@gmail.com tg: http://t.me/djonnyx).
  */
-export const textWithImage = () => {
+export const textWithImage = (id: number) => {
   return `
   https://online-store-demo-x12.eugene-grebennikov.pro/assets/img-${1 + Math.round(Math.random() * 19)}.png
-  ${generateText(5)}. 
+  ${id}. ${generateText(3)}. 
   `;
 };
 
@@ -62,7 +62,8 @@ const generateMessageCollection = (number: number, size: number) => {
       type,
       isBanner,
       dateTime: COLLECTION_PARAMS.maxDate + COLLECTION_PARAMS.index * 2000000,
-      text: isBanner ? `BIG SALE` : `${id}. ${textWithImage()}`,
+      price: Math.round(Math.random() * 10),
+      text: isBanner ? `BIG SALE` : textWithImage(id),
     });
   }
   return items;

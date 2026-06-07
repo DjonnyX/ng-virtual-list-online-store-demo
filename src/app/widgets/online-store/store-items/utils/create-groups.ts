@@ -48,6 +48,7 @@ export const createGroups = (list: IGetItemsData, proxy: ProxyCollection<IStoreI
                 mailed: true,
                 id: date.getTime(),
                 dateTime: date.getTime(),
+                price: Math.round(Math.random() * 10),
                 text,
                 type: MessageTypes.GROUP,
             };

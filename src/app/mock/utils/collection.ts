@@ -22,8 +22,9 @@ export const generateMessage = (): IVirtualListItem<IStoreItem> => {
         id,
         version,
         dateTime,
+        price: Math.round(Math.random() * 10),
         type,
         isBanner,
-        text: isBanner ? `${id} banner` : `${id}. ${textWithImage()}`,
+        text: isBanner ? `${id} banner` : textWithImage(id),
     };
 }
